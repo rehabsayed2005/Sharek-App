@@ -1,1 +1,1 @@
-console.log("hello my sad project");
+console.log("hello sad project");
