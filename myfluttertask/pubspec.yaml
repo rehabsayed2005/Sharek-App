@@ -1,0 +1,240 @@
+name: myfluttertask
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.0
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+  google_fonts: ^6.1.0
+  image_picker: ^1.2.1
+  uuid: ^4.5.1
+  http:
+
+  # Firebase packages
+  # firebase_core: ^3.6.0
+  # firebase_auth: ^5.7.0
+  # cloud_firestore: ^5.4.4
+  # firebase_storage: ^12.3.0
+  # supabase_flutter: ^2.10.3
+  # cached_network_image: ^3.3.1
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^6.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+  - assets/images/products.Json
+  - assets/images/image.jpg
+  - assets/images/WhatsApp Image .jpeg
+  - assets/images/WhatsApp Image (2).jpeg
+  - assets/images/WhatsApp fashion Image .jpeg
+  - assets/images/WhatsApp accessories Image.jpeg
+  - assets/images/women red blouse.jpeg
+  - assets/images/childern blue hoodie.jpeg
+  - assets/images/men classic black blazer.jpeg
+  - assets/images/men slim fit blue jeans.jpeg
+  - assets/images/Men white cotton T-shirt.jpeg
+  - assets/images/women summer dress.jpeg
+  - assets/images/women black pencil skirt.jpeg
+  - assets/images/women beige cardigan.jpeg
+  - assets/images/Men grey hoodies sweatshirt.jpeg
+  - assets/images/men black leather jacket.jpeg
+  - assets/images/childern red t-shirt.jpeg
+  - assets/images/childern green shorts.jpeg
+  - assets/images/women striped long sleeve shirt.jpeg
+  - assets/images/womens blouse.jpeg
+  - assets/images/mens black chinos.jpeg
+  - assets/images/childern yellow summer derss.jpeg
+  - assets/images/childern grey sweatpants.jpeg
+  - assets/images/men hoodie grey.jpeg
+  - assets/images/womens long skirt.jpeg
+  - assets/images/womens light jacket.jpeg
+  - assets/images/women cardigan.jpeg
+  - assets/images/childern jeans.jpeg
+  - assets/images/childern hoodie.jpeg
+  - assets/images/childerns shorts.jpeg
+  - assets/images/mens winter coat.jpeg
+  - assets/images/mens track pants.jpeg
+  - assets/images/mens polo shirt.jpeg
+  - assets/images/childern t-shirt set.jpeg
+  - assets/images/womens sweatpants.jpeg
+  - assets/images/women black long skirt.jpeg
+  - assets/images/navy men polo shirt.jpeg
+  - assets/images/dark black men hoodie.jpeg
+  - assets/images/kids red winter jacket.jpeg
+  - assets/images/blue winter scarf.jpeg
+  - assets/images/childer hoodies.jpeg
+  - assets/images/childern pajamas.jpeg
+  - assets/images/Childern sports suit.jpeg
+  - assets/images/childern winter jacket.jpeg
+  - assets/images/vaseline lip therapy.jpeg
+  - assets/images/nivea soft cream.jpeg
+  - assets/images/neutrogena sunblock spf.jpeg
+  - assets/images/himalaya purifying face wash.jpeg
+  - assets/images/garnier micellar water.jpeg
+  - assets/images/dove body lotion.jpeg
+  - assets/images/carmex lip balm.jpeg
+  - assets/images/johnsons body oil.jpeg
+  - assets/images/l oreal volum million mascara.jpeg
+  - assets/images/maybelline fit me powder.jpeg
+  - assets/images/Google chromecast.jpeg
+  - assets/images/iphon se 2022.jpeg
+  - assets/images/Hp pavilion 15.jpeg
+  - assets/images/asus vivobook laptop.jpeg
+  - assets/images/xiaomi mi brand 6.jpeg
+  - assets/images/samsung galaxy tab A8.jpeg
+  - assets/images/Apple ipad 9th gen.jpeg
+  - assets/images/jbl flio speaker.jpeg
+  - assets/images/anker soundcore speaker.jpeg
+  - assets/images/lenovo ideapad3.jpeg
+  - assets/images/samsung galaxy watch 4.jpeg
+  - assets/images/sony Wh headphone.jpeg
+  - assets/images/dell inspiron .jpeg
+  - assets/images/google pixel 7.jpeg
+  - assets/images/one plus nord2t.jpeg
+  - assets/images/canon eos camera.jpeg
+  - assets/images/fitbit charge5.jpeg
+  - assets/images/samsung Galexy bunds 2.jpeg
+  - assets/images/logitech mx master3.jpeg
+  - assets/images/echo dot gen.jpeg
+  - assets/images/sony play station controller.jpeg
+  - assets/images/samsung t7 portable ssd.jpeg
+  - assets/images/kingston data traveler 64GB.jpeg
+  - assets/images/hp envy laptop.jpeg
+  - assets/images/realme 11 pro.jpeg
+  - assets/images/huawei matepad t10.jpeg
+  - assets/images/redmi note 12.jpeg
+  - assets/images/Dell latitude.jpeg
+  - assets/images/apple mac keyboard.jpeg
+  - assets/images/xiaomi redmi buds 4.jpeg
+  - assets/images/tp-link wifi range extender.jpeg
+  - assets/images/acer predator helios.jpeg
+  - assets/images/sony zv-compact camera.jpeg
+  - assets/images/waterproof smartwatch band.jpeg
+  - assets/images/oppo reno 6.jpeg
+  - assets/images/lenovo tab m 10.jpeg
+  - assets/images/microsoft surface go.jpeg
+  - assets/images/kids cartoon backpack.jpeg
+  - assets/images/black travel neck pillow.jpeg
+  - assets/images/jabra elita 75.jpeg
+  - assets/images/LG ultragear 24 monitor.jpeg
+  - assets/images/western digital 2tb Hdd.jpeg
+  - assets/images/Ring light 18.jpeg
+  - assets/images/kids yellow sweatshirt.jpeg
+  - assets/images/TP-link archer c6 router.jpeg
+  - assets/images/Amazfit GTR 2.jpeg
+  - assets/images/men slim leather card holder.jpeg
+  - assets/images/Canon selphy Cp1300 printer.jpeg
+  - assets/images/women mini crossbody bag.jpeg
+  - assets/images/unisex baseball cap.jpeg
+  - assets/images/samsung Galexy A51.jpeg
+  - assets/images/lenovo thinkpad T 480.jpeg
+  - assets/images/unisex wool winter scarf.jpeg
+  - assets/images/soynx XB12 Blutooth speaker.jpeg
+  - assets/images/Huawei freelace wireless.jpeg
+  - assets/images/Asus VG gaming monitor.jpeg
+  - assets/images/childern cartoon backPack.jpeg
+  - assets/images/small canvas pouch.jpeg
+  - assets/images/classic Brown Belt.jpeg
+  - assets/images/light weighte cap.jpeg
+  - assets/images/Beanie hat.jpeg
+  - assets/images/winter regular scarf.jpeg
+  - assets/images/unisex sports cap.jpeg
+  - assets/images/Black Back Pack 20 L.jpeg
+  - assets/images/women Elegant beige Handbag.jpeg
+  - assets/images/Leather Keychain Brown.jpeg
+  - assets/images/classic aviator sunglasses.jpeg
+  - assets/images/Women silver bracelet.jpeg
+  - assets/images/classic black leather wallet.jpeg
+  - assets/images/Black Canvas belt.jpeg
+  - assets/images/Men leather wristband.jpeg
+  - assets/images/usb charging shoulder bag.jpeg
+  - assets/images/canvas travel waist bag.jpeg
+  - assets/images/stainless steel water bottel.jpeg
+  - assets/images/Travel Neck Pillow.jpeg
+  - assets/images/Compact sunglasses case.jpeg
+  - assets/images/Unisex fabric Bucket Hat.jpeg
+  - assets/images/stainless Keychain clip.jpeg
+  - assets/images/Mini coin purse.jpeg
+  - assets/images/nultipurpose pencil case.jpeg
+  - assets/images/Reusable shopping bag.jpeg
+  - assets/images/classical Analog wristwatch.jpeg
+  - assets/images/cotton Headband pack.jpeg
+  - assets/images/Travel passport Holder.jpeg
+  - assets/images/Metal Id lanyard.jpeg
+  - assets/images/basic fabric belt.jpeg
+  - assets/images/fabric tote shopper bag.jpeg
+  - assets/images/travel toilerty bag.jpeg
+  - assets/images/sell product.jpeg
+  - assets/images/Explore product.jpeg
+  #   - images/a_dot_ham.jpeg
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/to/resolution-aware-images
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/to/asset-from-package
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/to/font-from-package
